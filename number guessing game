@@ -1,0 +1,14 @@
+import random
+com = (random.randint(1,1000))
+Tries =0;
+while True:
+  Tries = Tries +1
+  hum = int(input("guess your number between  1 to n : "))
+  if hum==com:
+    print(f"congratulations you have won in {Tries} ! ")
+    break
+  elif hum > com:
+    print("Please select the smaller number ")
+  elif hum <com:
+    print("Please selct the greater number ")
+    
